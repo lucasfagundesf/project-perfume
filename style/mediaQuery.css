@@ -3,13 +3,11 @@
 @media screen and (min-width:1440px){
     main{
         width: 600px;
-        float: right;
-        height: 58vh;
-    }
-    section{
-        display: inline;
+        
     }
     section > div#image{
+        margin: 0px;
+        padding: 0px;
         float: left;
         width: 300px;
         height: 68vh;
@@ -17,7 +15,8 @@
         
     }
     #text{
-        margin: 11px 34px 30px 316px;
+        margin: -619px 34px 30px 316px;
+        float: right;
     }
     h1{
         margin: 20px 0px 20px 0px;
@@ -30,8 +29,10 @@
     }
     
     button{
-        width: 260px;
+        position: absolute;
+        width: 246px;
         margin: auto;
-
+        top:70%;
+        left: 55%;
     }
 }
