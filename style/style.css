@@ -21,16 +21,12 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.37);
 }
-section > div#image{
-    display: block;
-    background-image: url(../images/image-product-mobile.jpg);
-    
-    height: 250px;
+.mobile{
+    height: 275px;
     background-position: center top;
     background-size: cover;
- 
 }
-p#perfume{
+.perfume{
     letter-spacing: 5px;
 }
 h1{
@@ -39,7 +35,7 @@ h1{
     font-size: 35px;
     padding: 10px 0px 0px 25px;
 }
-p:not(#newprice, #oldprice){
+p:not(.newprice, .oldprice){
     font-family: 'Montserrat',sans-serif;
     font-weight: lighter;
     font-size: 14px;
@@ -48,14 +44,14 @@ p:not(#newprice, #oldprice){
     line-height: 27px;
     
 }
-#newprice{
+.newprice{
     font-family: 'Fraunces', serif;
     padding: 18px 0px 0px 25px;
     display: inline-block;
     font-size: 30px;
     color: hsl(158, 35%, 47%);
 }
-#oldprice{
+.oldprice{
     padding: 0px 0px 0px 25px;
     font-family: 'Fraunces', serif;
     display: inline-block;

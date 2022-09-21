@@ -5,26 +5,27 @@
         width: 600px;
         
     }
-    section > div#image{
+    .mobile{
+        display: none;
+    }
+    .desktop{
         margin: 0px;
         padding: 0px;
         float: left;
         width: 300px;
-        height: 68vh;
-        background-image: url(../images/image-product-desktop.jpg);
-        
+        height: 68vh;       
     }
-    #text{
+    .text{
         margin: -619px 34px 30px 316px;
         float: right;
     }
     h1{
         margin: 20px 0px 20px 0px;
     }
-    #desc{
+    .desc{
         margin: 0px 0px 20px 0px;
     }
-    #newprice{
+    .newprice{
         margin-top: -7px;
     }
     
